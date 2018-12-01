@@ -3,6 +3,8 @@ __pycache__
 *.cpy
 geckodriver.log
 */migrations/*
+.coverage
+htmlcov/
 
 # Virtual Studio Code
 .vscode
