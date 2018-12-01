@@ -9,7 +9,7 @@ install:
 
 # command to run tests
 script:
-  - pytest --cov=app
+  - pytest --cov=app --cov-fail-under=100
 
 after_success:
   - codecov
